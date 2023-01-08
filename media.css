@@ -1,0 +1,428 @@
+@media(max-width:790px) {
+
+
+    #logo {
+        height: calc(var(--navht) - 30px);
+        margin: 0px 10px;
+    }
+
+    #bar_icon {
+        display: block;
+    }
+
+    .nav_center ul {
+        z-index: 99;
+
+        margin-top: var(--navht);
+        position: fixed;
+
+        left: 100%;
+        visibility: hidden;
+        opacity: 0;
+
+        height: 100%;
+        width: 100%;
+        background-color: none;
+        transition: all .3s ease-in-out;
+
+
+
+    }
+
+
+    .nav_center ul li {
+        display: block;
+        line-height: var(--navht);
+
+        margin: 20px 0px;
+        text-align: center;
+
+    }
+
+    .nav_center ul li a:hover {
+        color: black;
+
+    }
+
+    .nav_center ul li a {
+        color: white;
+        font-size: 20px;
+        font-family: 'Domine', serif;
+    }
+
+
+
+    .nav_right {
+        position: absolute;
+        top: calc(var(--navht) + 10px);
+
+    }
+
+    .nav_right #search_icon {
+        color: white;
+    }
+
+    .nav_right #search_bar {
+        width: 250px;
+        height: 40px;
+    }
+
+    #input_checkbox:checked~#centerul {
+        left: 0;
+        background-color: #343939;
+
+        visibility: visible;
+        opacity: 1;
+
+    }
+
+
+
+    /* ----------------------------------------- */
+    main {
+        /* background-attachment: local; */
+        height: 100%;
+
+    }
+
+    .allcolleges {
+        margin: 40px 0px;
+    }
+
+
+    .college_name {
+        margin: 8px;
+    }
+
+    main .college {
+        width: 95vw;
+        margin: 20px 5px;
+    }
+
+
+    .college_name h1 {
+
+        font-size:33px;
+        font-weight: 200;
+        margin: 0px 8px;
+    }
+
+    .college_name #arrow {
+        margin: auto 5px;
+        font-size: 13px;
+        display: inline;
+    }
+
+
+
+    .content section {
+        margin: 15px;
+        padding: 5px;
+    }
+
+    .content section .name h2 {
+        font-size:20px;
+    }
+
+
+    .content .section_ul {
+        margin: 1px 30px 10px 30px;
+    }
+
+
+    .content .section_ul li {
+        margin: 12px 0px;
+    }
+
+    .content .section_ul li a {
+        font-size:20px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* ========================work================================= */
+
+
+
+
+
+
+
+    .work {
+        display: flex;
+        flex-direction: column;
+
+        align-items: center;
+        justify-content: left;
+
+        margin: 50px 10px;
+        padding: 30px;
+        background-attachment: local;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        max-height: 100vh;
+
+
+
+
+
+
+    }
+
+
+    .work .cards {
+     
+        /* height: 250px; */
+        height: fit-content;
+
+        margin: 20px 0px;
+
+        border: 2px solid rgb(0, 0, 0);
+        border-radius: 15px;
+
+        background-color: rgb(255, 255, 255);
+        padding: 5px 20px;
+        overflow-y:initial;
+    }
+
+
+    
+    .work .cards .apply{
+        margin: 20px 0px;
+    }
+    
+    
+
+
+
+
+
+
+
+
+    .contact {
+        height: auto;
+       
+        border-radius: 30px;
+
+        margin: 50px 10px;
+        padding: 20px;
+
+
+        justify-content: space-around;
+    }
+
+    .contact #reset{
+        margin: 0px;
+    }
+
+    .contact .left {
+        padding: 20px;
+        margin: auto 10px auto 0px;
+    }
+
+    .contact .left h2 {
+        font-size: 40px;
+
+
+
+    }
+
+    .contact .left p {
+        font-size: 14px;
+
+
+
+    }
+
+
+
+    .contact .right label {
+        color: rgb(0, 0, 0);
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(min-width:790px) and (max-width:1000px) {
+
+
+
+
+
+
+    .work {
+        display: flex;
+        flex-direction: column;
+
+        align-items: center;
+
+        margin: 50px 40px;
+        padding: 30px;
+
+        max-height: 100vh;
+
+
+        overflow: auto;
+
+
+
+    }
+
+
+
+    .work .cards {
+        max-width: 500px;
+        
+        margin: 20px;
+
+        border: 2px solid rgb(0, 0, 0);
+        border-radius: 15px;
+
+        background-color: rgb(255, 255, 255);
+        padding: 5px 20px;
+        overflow-y: initial;
+        
+    }
+
+    
+
+
+
+
+    .contact {
+        height: auto;
+        justify-content: left;
+        border-radius: 30px;
+
+        margin: 50px 40px;
+        padding: 20px 80px;
+
+
+
+    }
+
+
+    .contact .right label {
+        color: white;
+
+    }
+
+
+
+
+
+
+    .nav_center ul li a {
+        font-size: 15px;
+        padding: 7px;
+    }
+
+
+    #logo {
+        height: calc(var(--navht) - 30px);
+        display: flex;
+        margin: 0px 10px;
+    }
+
+
+    .nav_right {
+
+        margin: auto 8px;
+    }
+
+
+
+    #search_bar {
+
+
+        margin: auto 5px;
+        width: 165px;
+        height: 30px;
+
+        border: 2px solid black;
+        border-radius: 10px;
+
+
+
+
+    }
+
+    #search_icon::before {
+        font-size: 20px;
+    }
+
+
+    #search_icon {
+        margin: auto 1px;
+
+    }
+
+}
