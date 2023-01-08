@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CollegeMate</title>
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+    <link rel="icon" href="logo9.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+
+</head>
+
+<body>
+
+
+    <nav id="nav_bar">
+        <div class="nav_left">
+            <!-- logo -->
+            <a href="#"><img src="logofinal.png" alt="" id="logo"></a>
+        </div>
+
+
+        <div class="nav_center">
+            <!-- tabs -->
+            <input type="checkbox" style="display: none;" id="input_checkbox">
+            <ul id="centerul" onclick="displayul()">
+                <li><a href="#" onclick="scrolltoTop()">Home</a></li>
+                <li><a href="#footer">Social</a></li>
+                <li><a href="#work_id">Work</a></li>
+                <li><a href="#contactpage" onclick="">Contact</a></li>
+            </ul>
+
+        </div>
+
+
+        <div class="nav_right" id="nav_right_id">
+            <label for="search_bar">
+                <input type="text" placeholder="Search Colleges" id="search_bar" onclick="scrolltoTop()"
+                    onkeyup="searchNow()">
+                <i class="fa-solid fa-magnifying-glass" id="search_icon"></i>
+            </label>
+
+
+        </div>
+
+
+        <label for="input_checkbox" class="label_bars">
+            <i class="fa-solid fa-bars" id="bar_icon"></i>
+
+        </label>
+
+    </nav>
+
+    <div id="totop" onclick="scrolltoTop()" style="display: none;">
+        <i class="fa-solid fa-arrow-up"></i>
+    </div>
+
+
+    <!---------------------- MAIN ------------------------->
+
+
+
+    <main id="main_id">
+        <div class="allcolleges" id="allclg_id">
+
+
+            <div class="college dtu">
+
+                <header class="college_name" onclick="nameClickeddtu()">
+
+                    <i class="fa-solid fa-chevron-right dtuarrow" id="arrow"></i>
+
+                    <h1 class="h1_clgname">DTU</h1>
+
+                    <p class="targetName" style="display: none;">dtu DelhiTechnolgical Dce</p>
+
+
+                </header>
+
+
+
+                <div class="content dtu">
+
+
+                    <section class="societies">
+
+                        <header class="name">
+                            <i class="fa-solid fa-chevron-right" id="arrow"></i>
+
+                            <h2 id="h2_society">Societies</h2>
+                        </header>
+
+                        <ul class="section_ul">
+                            <li><a href="">E-CELL</a></li>
+                            <li><a href="">NSS</a></li>
+                            <li><a href="">AIMS</a></li>
+                            <li><a href="">YUVAAN</a></li>
+                            <li><a href="">ENGIFEST</a></li>
+                        </ul>
+
+                    </section>
+
+                    <section class="societies">
+
+                        <header class="name">
+                            <i class="fa-solid fa-chevron-right" id="arrow"></i>
+                            <h2 id="h2_society">Societies</h2>
+                        </header>
+
+                        <ul class="section_ul">
+                            <li><a href="">E-CELL</a></li>
+                            <li><a href="">NSS</a></li>
+                            <li><a href="">AIMS</a></li>
+                            <li><a href="">YUVAAN</a></li>
+                            <li><a href="">ENGIFEST</a></li>
+                        </ul>
+
+                    </section>
+
+
+
+
+
+
+
+
+                </div>
+
+            </div>
+
+
+
+            <div class="college nsut">
+                <header class="college_name" onclick="nameClickednsut()">
+                    <i class="fa-solid fa-chevron-right nsutarrow" id="arrow"></i>
+
+                    <h1 class="h1_clgname">NSUT</h1>
+
+                    <p class="targetName" style="display: none;">nsut nsit netaji</p>
+
+
+
+                </header>
+
+                <div class="content nsut">
+
+
+                    <section class="societies">
+
+                        <header class="name">
+                            <i class="fa-solid fa-chevron-right" id="arrow"></i>
+
+                            <h2 id="h2_society">Societies</h2>
+                        </header>
+
+                        <ul class="section_ul">
+                            <li><a href="">E-CELL</a></li>
+                            <li><a href="">NSS</a></li>
+                            <li><a href="">AIMS</a></li>
+                            <li><a href="">YUVAAN</a></li>
+                            <li><a href="">ENGIFEST</a></li>
+                        </ul>
+
+                    </section>
+
+                    <section class="societies">
+
+                        <header class="name">
+                            <i class="fa-solid fa-chevron-right" id="arrow"></i>
+                            <h2 id="h2_society">Societies</h2>
+                        </header>
+
+                        <ul class="section_ul">
+                            <li><a href="">E-CELL</a></li>
+                            <li><a href="">NSS</a></li>
+                            <li><a href="">AIMS</a></li>
+                            <li><a href="">YUVAAN</a></li>
+                            <li><a href="">ENGIFEST</a></li>
+                        </ul>
+
+                    </section>
+
+
+
+
+
+
+
+
+                </div>
+
+            </div>
+
+
+
+            <div class="college iitd">
+                <header class="college_name" onclick="nameClickediitd()">
+                    <i class="fa-solid fa-chevron-right iitdarrow" id="arrow"></i>
+
+                    <h1 class="h1_clgname">IIT-Delhi</h1>
+                    <p class="targetName" style="display: none;">iitd delhi iit-d iit-delhi</p>
+
+
+                </header>
+
+                <div class="content iitd">
+
+
+                    <section class="societies">
+
+                        <header class="name">
+                            <i class="fa-solid fa-chevron-right" id="arrow"></i>
+
+                            <h2 id="h2_society">Societies</h2>
+                        </header>
+
+                        <ul class="section_ul">
+                            <li><a href="">E-CELL</a></li>
+                            <li><a href="">NSS</a></li>
+                            <li><a href="">AIMS</a></li>
+                            <li><a href="">YUVAAN</a></li>
+                            <li><a href="">ENGIFEST</a></li>
+                        </ul>
+
+                    </section>
+
+                    <section class="societies">
+
+                        <header class="name">
+                            <i class="fa-solid fa-chevron-right" id="arrow"></i>
+                            <h2 id="h2_society">Societies</h2>
+                        </header>
+
+                        <ul class="section_ul">
+                            <li><a href="">E-CELL</a></li>
+                            <li><a href="">NSS</a></li>
+                            <li><a href="">AIMS</a></li>
+                            <li><a href="">YUVAAN</a></li>
+                            <li><a href="">ENGIFEST</a></li>
+                        </ul>
+
+                    </section>
+
+
+
+
+
+
+
+
+                </div>
+
+            </div>
+
+
+            <div class="college iiitd">
+                <header class="college_name" onclick="nameClickediiitd()">
+                    <i class="fa-solid fa-chevron-right iiitdarrow" id="arrow"></i>
+
+                    <h1 class="h1_clgname">IIIT-Delhi</h1>
+
+                    <p class="targetName" style="display: none;">iiitd iiit-delhi iiit-d</p>
+
+
+                </header>
+
+                <div class="content iiitd">
+
+
+                    <section class="societies">
+
+                        <header class="name">
+                            <i class="fa-solid fa-chevron-right" id="arrow"></i>
+
+                            <h2 id="h2_society">Societies</h2>
+                        </header>
+
+                        <ul class="section_ul">
+                            <li><a href="">E-CELL</a></li>
+                            <li><a href="">NSS</a></li>
+                            <li><a href="">AIMS</a></li>
+                            <li><a href="">YUVAAN</a></li>
+                            <li><a href="">ENGIFEST</a></li>
+                        </ul>
+
+                    </section>
+
+                    <section class="societies">
+
+                        <header class="name">
+                            <i class="fa-solid fa-chevron-right" id="arrow"></i>
+                            <h2 id="h2_society">Societies</h2>
+                        </header>
+
+                        <ul class="section_ul">
+                            <li><a href="">E-CELL</a></li>
+                            <li><a href="">NSS</a></li>
+                            <li><a href="">AIMS</a></li>
+                            <li><a href="">YUVAAN</a></li>
+                            <li><a href="">ENGIFEST</a></li>
+                        </ul>
+
+                    </section>
+
+
+
+
+
+
+
+
+                </div>
+
+            </div>
+
+
+            <div class="college igdtuw">
+                <header class="college_name" onclick="nameClickedigdtu()">
+                    <i class="fa-solid fa-chevron-right igdtuarrow" id="arrow"></i>
+
+                    <h1 class="h1_clgname">IGDTUW</h1>
+                    <p class="targetName" style="display: none;">igdtuw Indiragandhi women igdtu</p>
+
+
+                </header>
+
+                <div class="content igdtu">
+
+
+                    <section class="societies">
+
+                        <header class="name">
+                            <i class="fa-solid fa-chevron-right" id="arrow"></i>
+
+                            <h2 id="h2_society">Societies</h2>
+                        </header>
+
+                        <ul class="section_ul">
+                            <li><a href="">E-CELL</a></li>
+                            <li><a href="">NSS</a></li>
+                            <li><a href="">AIMS</a></li>
+                            <li><a href="">YUVAAN</a></li>
+                            <li><a href="">ENGIFEST</a></li>
+                        </ul>
+
+                    </section>
+
+                    <section class="societies">
+
+                        <header class="name">
+                            <i class="fa-solid fa-chevron-right" id="arrow"></i>
+                            <h2 id="h2_society">Societies</h2>
+                        </header>
+
+                        <ul class="section_ul">
+                            <li><a href="">E-CELL</a></li>
+                            <li><a href="">NSS</a></li>
+                            <li><a href="">AIMS</a></li>
+                            <li><a href="">YUVAAN</a></li>
+                            <li><a href="">ENGIFEST</a></li>
+                        </ul>
+
+                    </section>
+
+
+
+
+
+
+
+
+                </div>
+
+            </div>
+        </div>
+
+    </main>
+
+
+
+    <div class="work" id="work_id">
+
+        
+
+        <div class="cards">
+            <h2 class="title">
+                Video Editor
+
+            </h2>
+            <p class="description">
+                Professional video editor with proper work experience. Future opoportunities available.
+
+            </p>
+            <button class="apply">Apply</button>
+        </div>
+
+        <div class="cards">
+            <h2 class="title">
+                Photographer
+
+            </h2>
+            <p class="description">
+                Professional video editor with proper work experience. Future opoportunities available. Lorem ipsum
+                dolor sit, amet consectetur adipisicing elit. Et, illum. Lorem ipsum dolor, si.
+
+            </p>
+            <button class="apply">Apply</button>
+        </div>
+
+        <div class="cards">
+            <h2 class="title">
+                Social Media Manager
+
+            </h2>
+            <p class="description">
+                Professional video editor wit proper work experience. Future opoportunities available.
+
+            </p>
+            <button class="apply">Apply</button>
+        </div>
+
+
+        <div class="cards">
+            <h2 class="title">
+                Videographer
+
+            </h2>
+            <p class="description">
+                Professional video editor wit proper work experience. Future opoportunities available.
+
+            </p>
+            <button class="apply">Apply</button>
+        </div>
+
+
+        <div class="cards">
+            <h2 class="title">
+                Content Writer
+
+            </h2>
+            <p class="description">
+                Professional video editor wit proper work experience. Future opoportunities available.
+
+            </p>
+            <button class="apply">Apply</button>
+        </div>
+
+
+        
+
+    </div>
+
+
+    <div class="contact" id="contactpage">
+        <div class="left">
+            <h2>Contact Us</h2>
+
+            <p>Want to get in touch? <br> Fill the form or e-mail us at collegemateind@gmail.com</p>
+
+        </div>
+
+        <div class="right">
+            <form action="#">
+                <label for="name">Name
+                    <input autocomplete="off" placeholder="abc" type="text" id="name">
+                </label>
+
+                <label for="email">E-mail
+                    <input autocomplete="off" placeholder="xyz@gmail.com" type="email" id="email">
+                </label>
+
+                <label for="txtarea">How can we help you?
+                    <textarea autocomplete="off" name="" id="txtarea" cols="30" rows="10"></textarea>
+                </label>
+
+                <div class="btns">
+
+                    <button type="submit" id="submit">Submit</button>
+                    <button type="reset" id="reset">Reset</button>
+                </div>
+
+            </form>
+
+
+
+        </div>
+
+
+    </div>
+
+
+
+
+
+
+
+    <!-------------------footer----------------------------------->
+
+
+
+    <footer id="footer">
+        <div class="social">
+
+            <a href="https://twitter.com/abhishek_sh01"><i class="fa-brands fa-twitter"></i></a>
+
+            <a href="https://www.instagram.com/abhishek.sharma101/"><i class="fa-brands fa-instagram"></i></a>
+
+
+            <a href="https://www.linkedin.com/in/abhishek-sharma-84a827212/"><i class="fa-brands fa-linkedin"></i></a>
+
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://github.com/abhishek-sharma001"><i class="fa-brands fa-github"></i></a>
+
+
+
+
+        </div>
+
+        <div class="copyright">
+            <p id="copyright para">All rights reserved @CollegeMate 2023</p>
+        </div>
+
+
+
+    </footer>
+
+
+
+    <script src="javascript.js"></script>
+
+
+</body>
+
+</html>
